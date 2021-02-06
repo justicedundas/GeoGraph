@@ -1,2 +1,5 @@
 # GeoGraph
-To use have a running instance of Neo4j installed locally and configure environment variables, then run ./binder/start to seed the graph.
+Neo4j knowledge graph of all global geographic data from country down to city, and all UN regions and subregions. 
+
+
+To use first have Neo4j installed locally with environment variables configured, then run ./binder/start to seed the graph.
