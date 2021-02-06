@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# This script updates the ExertHedge knowledge graph
+# This script updates the knowledge graph
 
 
 
 # downloald and prepare data files for KG construction
-# $EXPERTHEDGE/scripts/run_notebooks.sh 
+# $HOME/scripts/run_notebooks.sh 
 python3 /home/main/src/python-files/import-data/geonames.py
 
 #LOGDIR="$NEO4J_HOME"/import/logs/`date +%Y-%m-%d`
