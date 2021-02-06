@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# This script updates the ExpertHedge knowledge graph
+# This script updates the knowledge graph
 
-# cd $EXPERTHEDGE/notebooks/dataprep
+# cd $HOME/notebooks/dataprep
 
 LOGDIR="$NEO4J_IMPORT"/logs/`date +%Y-%m-%d`
 mkdir -p "$LOGDIR"
