@@ -12,9 +12,9 @@ python3 /home/main/src/python-files/import-data/geonames.py
 # eval "$(conda shell.bash hook)"
 
 # # create conda environment
-# conda env remove -n ExpertHedge &>> $LOGDIR/update.log
-# conda env create -f $EXPERTHEDGE/environment.yml &>> $LOGDIR/update.log
-# conda activate ExpertHedge &>> $LOGDIR/update.log
+# conda env remove -n Dundy &>> $LOGDIR/update.log
+# conda env create -f $DUNDY/environment.yml &>> $LOGDIR/update.log
+# conda activate Dundy &>> $LOGDIR/update.log
 
 # run Jupyter Notebooks to download, clean, and standardize data for the knowledge graph
 # To check for any errors, look at the executed notebooks in the $LOGDIR directory
